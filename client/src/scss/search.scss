@@ -1,0 +1,34 @@
+/* Written by
+ * Evan Lalopoulos <evan.lalopoulos.2017@my.bristol.ac.uk>
+ * Harrison Boyns <hb17757.2017@my.bristol.ac.uk>
+ * A project for Web Technologies
+ * University of Bristol, May 2018
+ * Copyright (C) - All Rights Reserved
+ * Unauthorized copying of this file is strictly prohibited
+ */
+ 
+// Search results
+.search-result__box {
+  margin-bottom: 24px;
+}
+
+.search-result__title {
+  font-size: 2em;
+  margin-bottom: 0px;
+}
+
+.search-result__title a {
+  color: #000000;
+}
+
+.search-result__price {
+  font-size: 2rem;
+}
+
+.search-result__stars {
+  color: #f8be15;
+}
+
+.search-result__reviews {
+  color: gray;
+}

@@ -1,0 +1,91 @@
+/* Written by
+ * Evan Lalopoulos <evan.lalopoulos.2017@my.bristol.ac.uk>
+ * Harrison Boyns <hb17757.2017@my.bristol.ac.uk>
+ * A project for Web Technologies
+ * University of Bristol, May 2018
+ * Copyright (C) - All Rights Reserved
+ * Unauthorized copying of this file is strictly prohibited
+ */
+
+// Home page style
+
+body, html {
+  height: 100%;
+}
+
+.wrapper {
+  padding: 0px;
+}
+
+.centre{
+  height: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  float: none;
+}
+
+.bg {
+    /* The image used */
+    background-image: url('/assets/images/hero-bg.jpg');
+    /* Full height */
+    min-height: 400px;
+    height: 80vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .7;
+}
+
+.hero {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    -moz-transform: translate3d(-50%,-50%,0);
+    -ms-transform: translate3d(-50%,-50%,0);
+    -o-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+//Hero Search Box
+.hero-search-box {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    padding: 15px;
+    z-index: 90;
+    border-radius: 20px 20px 0 0;
+    color: #ffffff;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    -moz-transform: translate3d(-50%,-50%,0);
+    -ms-transform: translate3d(-50%,-50%,0);
+    -o-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+
+    @media (min-width: 990px) {
+      margin-top: -280px;
+      border-radius: 4px;
+      color: #ffffff;
+}
+}
+
+.hero__search-input{
+  min-width: 300px;
+  margin-right: 10px;
+}
